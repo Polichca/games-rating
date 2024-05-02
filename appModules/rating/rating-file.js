@@ -31,4 +31,4 @@ async function makeRatingFile(path, array) {
   await fs.writeFile(path, JSON.stringify(ratingArray));
 }
 
-module.exports = makeRatingFile;
+module.exports = { makeRatingFile };
