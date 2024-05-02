@@ -3,4 +3,4 @@ const endpoints = {
   games: `${BASE_URL}/games`,
 };
 
-module.exports = { endpoints };
+module.exports = endpoints;
